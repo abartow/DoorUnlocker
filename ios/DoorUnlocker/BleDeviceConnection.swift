@@ -19,6 +19,8 @@ class BleDeviceConnection: NSObject, CBCentralManagerDelegate {
         centralManager = CBCentralManager(delegate: self, queue: nil)
     }
     
+    // This is from:
+    // https://stackoverflow.com/questions/39450534/cbcentralmanager-ios10-and-ios9
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         switch central.state {
         case CBManagerState.unauthorized:

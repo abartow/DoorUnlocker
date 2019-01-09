@@ -15,8 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, BeaconMonitorDelegate, UN
     var window: UIWindow?
     var deviceConnection: BleDeviceConnection?
     var beaconMonitor: BeaconMonitor?
-
-
+    
+    // The notification part of this is adapted from:
+    // https://stackoverflow.com/questions/6047117/how-can-i-create-local-notifications-in-ios
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         deviceConnection = BleDeviceConnection()
