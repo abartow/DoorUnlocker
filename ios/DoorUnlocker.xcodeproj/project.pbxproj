@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4923198721E5946D00BDAC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923198621E5946D00BDAC93 /* AppDelegate.swift */; };
+		4923198921E5946D00BDAC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923198821E5946D00BDAC93 /* ViewController.swift */; };
+		4923198C21E5946D00BDAC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923198A21E5946D00BDAC93 /* Main.storyboard */; };
+		4923198E21E5946F00BDAC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4923198D21E5946F00BDAC93 /* Assets.xcassets */; };
+		4923199121E5946F00BDAC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923198F21E5946F00BDAC93 /* LaunchScreen.storyboard */; };
+		4923199C21E5946F00BDAC93 /* DoorUnlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923199B21E5946F00BDAC93 /* DoorUnlockerTests.swift */; };
+		492319A721E5946F00BDAC93 /* DoorUnlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492319A621E5946F00BDAC93 /* DoorUnlockerUITests.swift */; };
+		492319B521E5968700BDAC93 /* BleDeviceConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492319B421E5968700BDAC93 /* BleDeviceConnection.swift */; };
+		492319B721E5A68C00BDAC93 /* BeaconMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492319B621E5A68C00BDAC93 /* BeaconMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4923199821E5946F00BDAC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4923197B21E5946D00BDAC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4923198221E5946D00BDAC93;
+			remoteInfo = DoorUnlocker;
+		};
+		492319A321E5946F00BDAC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4923197B21E5946D00BDAC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4923198221E5946D00BDAC93;
+			remoteInfo = DoorUnlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4923198321E5946D00BDAC93 /* DoorUnlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorUnlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923198621E5946D00BDAC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4923198821E5946D00BDAC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4923198B21E5946D00BDAC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4923198D21E5946F00BDAC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4923199021E5946F00BDAC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4923199221E5946F00BDAC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4923199721E5946F00BDAC93 /* DoorUnlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorUnlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923199B21E5946F00BDAC93 /* DoorUnlockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorUnlockerTests.swift; sourceTree = "<group>"; };
+		4923199D21E5946F00BDAC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492319A221E5946F00BDAC93 /* DoorUnlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorUnlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		492319A621E5946F00BDAC93 /* DoorUnlockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorUnlockerUITests.swift; sourceTree = "<group>"; };
+		492319A821E5947000BDAC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492319B421E5968700BDAC93 /* BleDeviceConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleDeviceConnection.swift; sourceTree = "<group>"; };
+		492319B621E5A68C00BDAC93 /* BeaconMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4923198021E5946D00BDAC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923199421E5946F00BDAC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923199F21E5946F00BDAC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4923197A21E5946D00BDAC93 = {
+			isa = PBXGroup;
+			children = (
+				4923198521E5946D00BDAC93 /* DoorUnlocker */,
+				4923199A21E5946F00BDAC93 /* DoorUnlockerTests */,
+				492319A521E5946F00BDAC93 /* DoorUnlockerUITests */,
+				4923198421E5946D00BDAC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4923198421E5946D00BDAC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4923198321E5946D00BDAC93 /* DoorUnlocker.app */,
+				4923199721E5946F00BDAC93 /* DoorUnlockerTests.xctest */,
+				492319A221E5946F00BDAC93 /* DoorUnlockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4923198521E5946D00BDAC93 /* DoorUnlocker */ = {
+			isa = PBXGroup;
+			children = (
+				4923198621E5946D00BDAC93 /* AppDelegate.swift */,
+				492319B421E5968700BDAC93 /* BleDeviceConnection.swift */,
+				492319B621E5A68C00BDAC93 /* BeaconMonitor.swift */,
+				4923198821E5946D00BDAC93 /* ViewController.swift */,
+				4923198A21E5946D00BDAC93 /* Main.storyboard */,
+				4923198D21E5946F00BDAC93 /* Assets.xcassets */,
+				4923198F21E5946F00BDAC93 /* LaunchScreen.storyboard */,
+				4923199221E5946F00BDAC93 /* Info.plist */,
+			);
+			path = DoorUnlocker;
+			sourceTree = "<group>";
+		};
+		4923199A21E5946F00BDAC93 /* DoorUnlockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4923199B21E5946F00BDAC93 /* DoorUnlockerTests.swift */,
+				4923199D21E5946F00BDAC93 /* Info.plist */,
+			);
+			path = DoorUnlockerTests;
+			sourceTree = "<group>";
+		};
+		492319A521E5946F00BDAC93 /* DoorUnlockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				492319A621E5946F00BDAC93 /* DoorUnlockerUITests.swift */,
+				492319A821E5947000BDAC93 /* Info.plist */,
+			);
+			path = DoorUnlockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4923198221E5946D00BDAC93 /* DoorUnlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492319AB21E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlocker" */;
+			buildPhases = (
+				4923197F21E5946D00BDAC93 /* Sources */,
+				4923198021E5946D00BDAC93 /* Frameworks */,
+				4923198121E5946D00BDAC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorUnlocker;
+			productName = DoorUnlocker;
+			productReference = 4923198321E5946D00BDAC93 /* DoorUnlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4923199621E5946F00BDAC93 /* DoorUnlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492319AE21E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlockerTests" */;
+			buildPhases = (
+				4923199321E5946F00BDAC93 /* Sources */,
+				4923199421E5946F00BDAC93 /* Frameworks */,
+				4923199521E5946F00BDAC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4923199921E5946F00BDAC93 /* PBXTargetDependency */,
+			);
+			name = DoorUnlockerTests;
+			productName = DoorUnlockerTests;
+			productReference = 4923199721E5946F00BDAC93 /* DoorUnlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		492319A121E5946F00BDAC93 /* DoorUnlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492319B121E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlockerUITests" */;
+			buildPhases = (
+				4923199E21E5946F00BDAC93 /* Sources */,
+				4923199F21E5946F00BDAC93 /* Frameworks */,
+				492319A021E5946F00BDAC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492319A421E5946F00BDAC93 /* PBXTargetDependency */,
+			);
+			name = DoorUnlockerUITests;
+			productName = DoorUnlockerUITests;
+			productReference = 492319A221E5946F00BDAC93 /* DoorUnlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4923197B21E5946D00BDAC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrew Bartow";
+				TargetAttributes = {
+					4923198221E5946D00BDAC93 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4923199621E5946F00BDAC93 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4923198221E5946D00BDAC93;
+					};
+					492319A121E5946F00BDAC93 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4923198221E5946D00BDAC93;
+					};
+				};
+			};
+			buildConfigurationList = 4923197E21E5946D00BDAC93 /* Build configuration list for PBXProject "DoorUnlocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4923197A21E5946D00BDAC93;
+			productRefGroup = 4923198421E5946D00BDAC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4923198221E5946D00BDAC93 /* DoorUnlocker */,
+				4923199621E5946F00BDAC93 /* DoorUnlockerTests */,
+				492319A121E5946F00BDAC93 /* DoorUnlockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4923198121E5946D00BDAC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923199121E5946F00BDAC93 /* LaunchScreen.storyboard in Resources */,
+				4923198E21E5946F00BDAC93 /* Assets.xcassets in Resources */,
+				4923198C21E5946D00BDAC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923199521E5946F00BDAC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492319A021E5946F00BDAC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4923197F21E5946D00BDAC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923198921E5946D00BDAC93 /* ViewController.swift in Sources */,
+				492319B521E5968700BDAC93 /* BleDeviceConnection.swift in Sources */,
+				492319B721E5A68C00BDAC93 /* BeaconMonitor.swift in Sources */,
+				4923198721E5946D00BDAC93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923199321E5946F00BDAC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923199C21E5946F00BDAC93 /* DoorUnlockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923199E21E5946F00BDAC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492319A721E5946F00BDAC93 /* DoorUnlockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4923199921E5946F00BDAC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4923198221E5946D00BDAC93 /* DoorUnlocker */;
+			targetProxy = 4923199821E5946F00BDAC93 /* PBXContainerItemProxy */;
+		};
+		492319A421E5946F00BDAC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4923198221E5946D00BDAC93 /* DoorUnlocker */;
+			targetProxy = 492319A321E5946F00BDAC93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4923198A21E5946D00BDAC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4923198B21E5946D00BDAC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4923198F21E5946F00BDAC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4923199021E5946F00BDAC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492319A921E5947000BDAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		492319AA21E5947000BDAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492319AC21E5947000BDAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBMK3BF3JB;
+				INFOPLIST_FILE = DoorUnlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		492319AD21E5947000BDAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBMK3BF3JB;
+				INFOPLIST_FILE = DoorUnlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		492319AF21E5947000BDAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorUnlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorUnlocker.app/DoorUnlocker";
+			};
+			name = Debug;
+		};
+		492319B021E5947000BDAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorUnlockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorUnlocker.app/DoorUnlocker";
+			};
+			name = Release;
+		};
+		492319B221E5947000BDAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorUnlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorUnlocker;
+			};
+			name = Debug;
+		};
+		492319B321E5947000BDAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoorUnlockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abartow.DoorUnlockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorUnlocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4923197E21E5946D00BDAC93 /* Build configuration list for PBXProject "DoorUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492319A921E5947000BDAC93 /* Debug */,
+				492319AA21E5947000BDAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492319AB21E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492319AC21E5947000BDAC93 /* Debug */,
+				492319AD21E5947000BDAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492319AE21E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492319AF21E5947000BDAC93 /* Debug */,
+				492319B021E5947000BDAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492319B121E5947000BDAC93 /* Build configuration list for PBXNativeTarget "DoorUnlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492319B221E5947000BDAC93 /* Debug */,
+				492319B321E5947000BDAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4923197B21E5946D00BDAC93 /* Project object */;
+}
